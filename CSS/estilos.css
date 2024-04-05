@@ -1,4 +1,4 @@
-.header{
+header{
     background-image: url("../img/header_background.jpeg");    
     height: 100;
     color: azure;
@@ -27,3 +27,53 @@
 }
 
 
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 55px;
+    max-width: 68%;
+    padding: 300px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+}
+
+h3 {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+.pagina {
+    max-width: 39%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 700px) {
+    .textos {
+        font-size: 14px;
+    }
+    h2 {
+        font-size: 27px;    
+    }
+    h3{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 55px;
+        padding: 10px;
+        margin-top: 30%;
+    }
+    .spoilers {
+        font-size: 20px;
+    }
+}
