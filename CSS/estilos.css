@@ -1,12 +1,29 @@
-.encabezado {
-    background-image: url(../img/header_background.jpeg);
-    position: fixed;
+.header{
+    background-image: url("../img/header_background.jpeg");    
+    height: 100;
+    color: azure;
+    padding: 30;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center center;
 }
 
-.pagina {
-    max-width:35%;
+.imagen {
+    width: 100%;
+    display: block;
     margin: 0 auto;
-    justify-content: justify;
-    font-family:'calibri';
 }
+
+.textos {
+    font-size: 22px;
+    text-align: justify;
+    padding-right: 5px; 
+
+}
+
+.spoilers {
+    font-size: 40px;
+    font-family: 'Merriweather', serif;
+}
+
 
