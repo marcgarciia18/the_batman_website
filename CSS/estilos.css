@@ -1,0 +1,12 @@
+.encabezado {
+    background-image: url(../img/header_background.jpeg);
+    position: fixed;
+}
+
+.pagina {
+    max-width:35%;
+    margin: 0 auto;
+    justify-content: justify;
+    font-family:'calibri';
+}
+
