@@ -1,3 +1,7 @@
+/*Aqui importaremos las dos fuentes que utilizaremos para darle estilo a la pagina*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* Conseguiremos hacer que el encabezado tenga una imagen de fondo con el texto escrito por encima*/
 header{
     background-image: url("../img/header_background.jpeg");    
     height: 100;
@@ -7,7 +11,7 @@ header{
     background-repeat:no-repeat;
     background-position:center center;
 }
-
+/*Conseguiremos que el maximo de anchura sea un 39% y que las imagenes ocupen el 100 del ancho determinado del div*/
 .pagina {
     max-width: 39%;
     margin: 0 auto;
@@ -18,22 +22,28 @@ header{
     display: block;
     margin: 0 auto;
 }
-
+/*Conseguiremos darle estilo a los textos de todos los parrafos con este estilo*/ 
 .textos {
     font-size: 22px;
     text-align: justify;
     padding-right: 5px; 
-
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
+/*Conseguiremos que tenga una fuente diferente el H3 especifico con esta clase*/
 .spoilers {
-    font-size: 40px;
-    font-family: 'Merriweather', serif;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
-
+/*Le daremos estilos a los encabezados de H1 H2 y H3*/
 h1 {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 55px;
     max-width: 68%;
     padding: 300px;
@@ -41,23 +51,21 @@ h1 {
 }
 
 h2 {
-    font-family: 'Nanum Gothic', sans-serif;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 36px;
 }
 
 h3 {
-    font-family: 'Nanum Gothic', sans-serif;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 30px;
 }
 
-
+/* Conseguimos darle color a los enlaces*/
 a {
     color: red;
     text-decoration: none;
 }
-
+/*Conseguimos que en el pie de pagina este en negrita y centrado*/
 footer {
     background-color: black;
 	color: white;
@@ -66,9 +74,11 @@ footer {
 	width: 100%;
 	bottom: 0;
 	left: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: large;
 }
 
-
+/*Conseguimos que al minimizar la pantalla obtenga la apariencia de movil*/
 @media screen and (max-width: 700px) {
     .textos {
         font-size: 14px;
